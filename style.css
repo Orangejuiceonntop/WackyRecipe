@@ -35,3 +35,17 @@ body {
 .generate:hover {
     text-decoration: underline wavy;
 }
+
+.enter button {
+    padding: 10px;
+    font-size: 15px;
+    font-family: "Varela Round", sans-serif;
+    border: #4f332d 2px solid;
+    border-radius: 10px;
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.enter button:hover {
+    transform: scale(1.2);
+}
