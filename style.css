@@ -40,6 +40,8 @@ body {
     padding: 10px;
     font-size: 15px;
     font-family: "Varela Round", sans-serif;
+    color: rgb(254, 253, 250);
+    background-color: rgb(120, 48, 49);
     border: rgb(71, 29, 29) 2px solid;
     border-radius: 10px;
     transition: transform .2s;
@@ -48,6 +50,7 @@ body {
 
 .enter button:hover {
     transform: scale(1.2);
+    border: rgb(233, 221, 207) 2px double;
 }
 
 .title {
