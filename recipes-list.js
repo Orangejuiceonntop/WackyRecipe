@@ -14,8 +14,17 @@ let allRecipes = [
     {
         name:"Chorizo and Cheese Grilled Stuffed Bell Peppers",
         img:"",
-        ingredients:[],
-        instructions:[],
-    }
+        ingredients:["2 sweet potatoes", "1/2 cup apple cider vinegar", "1/2 cup brown sugar", "1 large can black beans", "1 cheap beer", 
+            "1 tomato", "2 shallots", "2 jalapeños", "3 serrano peppers", "1 pound chorizo", "1/2 cup cotija cheese", "1/2 cup queso fresco", 
+            "1 cup monterey jack cheese", "6 bell peppers (any color, but choose ones that can stand up straight)"],
+        instructions:["Preheat oven to 400°F.", "Peel and dice the sweet potatoes.", "Toss the sweet potatoes with the brown sugar and apple cider vinegar (and some salt to taste).", 
+            "Bake for 45 minutes, or until tender and browning at the edges; once finished, remove from oven and set aside to cool.", 
+            "Chop shallots, tomato, and jalapeños for beans.", "Heat a small pot over medium heat.", 
+            "Add the butter and the vegetables you just chopped and cook until they start to break down.", "Add the beans, beer and lime juice and stir well.", "Cover and cook on medium-low for about 20 minutes; when finished, set aside to cool.", 
+            "While beans are cooking, heat skillet on medium-high heat.", "Remove chorizo from casing and add to skillet; cook until browned, then remove from heat and let cool.", 
+            "De-seed and dice serranos.", "Mix sweet potatoes, beans, chorizo, serranos, and cheese together.", "Spark up your grill.", "Slice the tops of your bell peppers (save them), and remove core and seeds.", "While grill is very hot, grill peppers until they are just starting to get soft; you don't want to roast them all the way (grill the tops, too!).", 
+            "Pull the peppers off, and fill them with your chorizo mixture; put the tops back on like little hats.", "Put peppers back on the grill around the edges of the coals, and cover.", 
+            "Cook for 30 minutes, poking in every 5 minutes or so to spin peppers (part facing inward will cook fastest).",],
+    },
     
 ]
