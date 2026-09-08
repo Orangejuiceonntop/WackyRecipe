@@ -99,5 +99,12 @@ body {
     height: 300px;
     margin-top: 35px;
     margin-bottom: 40px;
-    background-color: grey;
+    background-color: lightgray;
+    border: rgb(71, 29, 29) solid 4px;
+}
+
+.imgBox img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
