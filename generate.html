@@ -16,12 +16,18 @@
             <a href="collection.html" alt="collection">Collection</a>
         </div>
 
-        <div class="rollContainer">
+        <div class="rollContainer" id="mainContainer">
             <div class="imgBox">
                 <img>
             </div>
-            <div style="display: flex; justify-content: center;">
-                <button class="enter">ROLL RECIPE!</button>
+            <div>
+                <button class="enter" id="rollButton">ROLL RECIPE!</button>
+            </div>
+            <div style="display: none;" id="expandButton">
+                <button class="enter" >Yummy! (SEE RECIPE)</button>
+            </div>
+            <div style="display: none;" id="rerollButton">
+                <button class="enter">Yuck! (RE-ROLL)</button>
             </div>
             
             <div style="display: none;">
@@ -29,6 +35,24 @@
             </div>
 
         </div>
+        <div class="rollContainer" style="display: none; left: 4%;" id="sideContainer">
+            <div class="imgBox">
+                <img>
+            </div>
+
+            <div id="recipeName">
+                <p>[Insert Name]</p>
+            </div>
+
+            <div style="display: flex; justify-content: center;">
+                <button class="enter">RE-ROLL!</button>
+            </div>
+        </div>
+        <div id="recipeContainer">
+            
+        </div>
+
+
 
     </body>
 
