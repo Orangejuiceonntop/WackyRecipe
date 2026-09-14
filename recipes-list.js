@@ -1,7 +1,7 @@
 let allRecipes = [
     {
         name:"Peeping Mushroom Pasta",
-        img:"",
+        img:"peeping mushroom",
         ingredients:["2 tablespoons butter", "1/4 cup all purpose flour", "2 cups lukewarm milk",
             "2 cups lukewarm milk", "1/4 onion", "1 whole clove", "1 bay leaf", "9 ounces rigatoni pasta", "Pinch of freshly ground nutmeg", "Sea salt and white pepper",
             "2 tablespoons whole-grain mustard", "3 1/2 ounces Gruyère, parmesan or other hard cheese", "6 ounces mixed enoki or shimeji mushrooms", "Finely chopped fresh parsley for serving"],
@@ -13,7 +13,7 @@ let allRecipes = [
     },
     {
         name:"Chorizo and Cheese Grilled Stuffed Bell Peppers",
-        img:"",
+        img:"chorizo and cheese",
         ingredients:["2 sweet potatoes", "1/2 cup apple cider vinegar", "1/2 cup brown sugar", "1 large can black beans", "1 cheap beer", 
             "1 tomato", "2 shallots", "2 jalapeños", "3 serrano peppers", "1 pound chorizo", "1/2 cup cotija cheese", "1/2 cup queso fresco", 
             "1 cup monterey jack cheese", "6 bell peppers (any color, but choose ones that can stand up straight)"],
@@ -26,5 +26,32 @@ let allRecipes = [
             "Pull the peppers off, and fill them with your chorizo mixture; put the tops back on like little hats.", "Put peppers back on the grill around the edges of the coals, and cover.", 
             "Cook for 30 minutes, poking in every 5 minutes or so to spin peppers (part facing inward will cook fastest).",],
     },
+    {
+        name:"Beet Pickled Devlish Eggs",
+        img:"beet eggs",
+        ingredients:["2 serrano peppers", "3 cups water", "1 cup white vinegar", "1 1/2 cups sugar", "2 small beets", "3 cloves garlic", "3 bay leaves", "2 tablespoons whole black peppercorns", "1 tablespoon kosher salt", "12 large hard-boiled eggs", "2 tablespoons mayonnaise", 
+            "1 tablespoon extra-virgin olive oil", "1 tablespoon Dijon-style mustard", "1 tablespoon Sriracha sauce", "Mild curry powder or smoked paprika for garnish"],
+        instructions:["Cut 1 of the serrano peppers into halves lengthwise, retaining the seeds. Place the pepper in a large saucepan and add the water, vinegar, sugar, beets, garlic, bay leaves, peppercorns, and salt. Bring to a boil over high heat, reduce the heat to low, and simmer until the beets are tender, about 20 minutes. Remove the pot from the heat and let cool completely.",
+            "Add the eggs to the beet liquid and refrigerate for at least 6 hours. Remove the eggs from the liquid and let them dry completely.",
+            "Cut the eggs into halves lengthwise and remove the yolks. Place the yolks in a medium bowl and place the whites on a large plate. Add the mayonnaise, olive oil, mustard, and Sriracha to the yolks. Mix and mash to combine thoroughly. Fill the whites with the yolk mixture. Slice the remaining serrano pepper into rounds. Top each egg with a slice of serrano and a sprinkle of curry powder, if desired."],
+    },
+    {
+        name:"Charred Brussels Sprouts with Spicy Anchovy Butter",
+        img:"charred brussels",
+        ingredients:["3 ounces best-quality anchovy fillet in oil, rinsed", "1 cup flat-leaf parsley", "1 teaspoon chili flakes", "1/4 pound unsalted butter", "1 garlic clove", 
+            "sea salt", "1/2 teaspoon baking soda", "1 1/2 pounds brussels sprouts", "1/2 cup canola oil", "2 tablespoons fresh lemon juice", "2 tablespoons finely chopped chives"],
+        instructions:["*spicy anchovy butter*", "Place all the ingredients in a food processor; puree until smooth and reserve. This makes more than is needed in the recipe, but it can be frozen for up to a month.", "*brussels sprouts*",
+            "Fill a large bowl with salted ice water. Bring a large pot with about 3 quarts of water to a boil. Add the baking soda and enough salt to make the water salty like the sea.", 
+            "Meanwhile, remove the outer leaves of the Brussels sprouts. Trim the ends off and split in half lengthwise. Carefully drop the Brussels sprouts into the boiling water and cook until tender, about 3 minutes. Drain immediately and immerse in the salted ice water to cool completely. Drain and pat dry with a paper towel. This can be done up to 1 day in advance.", 
+            "In a large frying pan, heat the oil until it starts to smoke. Cook the Brussels sprouts, cut-side down, undisturbed, for 2-4 minutes, until they start to brown. Flip the Brussels sprouts and add the spicy anchovy butter; lower the heat to moderate and continue to cook until the butter melts, stirring occasionally. Season the Brussels sprouts with salt and finish with the lemon juice and chives."],
+    },
+    {
+        name:"Crispy Corned Beef Fritters",
+        img:"beef fritters",
+    },
+    {
+        name:"Million Dollar Spaghetti",
+        img:"spaghetti",
+    }
     
 ]
