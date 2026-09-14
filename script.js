@@ -1,5 +1,5 @@
 //generate random number
-let randomNum = Math.floor(Math.random() * 2) + 1;
+let randomNum = Math.floor(Math.random() * 6) + 1;
 
 console.log(randomNum);
 
@@ -11,7 +11,10 @@ window.addEventListener("load", ()=>{
 })
 
 function loadRecipes(indexNumb) {
-    //fill this later
+    rollName.innerText = allRecipes[indexNumb - 1].name;
+    recipeName.innerText = allRecipes[indexNumb - 1].name;
+    recipeImage.src = `images/${allRecipes[indexNumb - 1].img}.jpg`;
+    recipeImageTwo.src = `images/${allRecipes[indexNumb - 1].img}.jpg`;
 }
 
 let rollButton = document.getElementById("rollButton");
@@ -21,7 +24,11 @@ let mainContainer = document.getElementById("mainContainer");
 let sideContainer = document.getElementById("sideContainer");
 let recipeContainer = document.getElementById("recipeContainer");
 let rerollTwo = document.getElementById("rerollTwo");
-let rollName = document.getElementById("rollName")
+
+let rollName = document.getElementById("rollName");
+let recipeName = document.getElementById("recipeName");
+let recipeImage = mainContainer.querySelector(".imgBox img");
+let recipeImageTwo = sideContainer.querySelector(".imgBox img");
 
 
 rollButton.addEventListener("click", event => {
