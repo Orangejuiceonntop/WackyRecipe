@@ -123,6 +123,7 @@ body {
     background-color: rgba(254, 253, 250, 0.717);
     border: rgb(71, 29, 29) solid 4px;
     border-radius: 10px;
+    overflow-y: scroll;
 }
 
 #rollName, #recipeName {
@@ -131,4 +132,8 @@ body {
     margin-top: 8px;
     margin-bottom: 20px;
     width: 400px;
+}
+
+#ingredients, #instructions {
+    width: 700px;
 }
