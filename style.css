@@ -137,3 +137,38 @@ body {
 #ingredients, #instructions {
     width: 700px;
 }
+
+.collectionTitle {
+    width: 90%;
+    height: 15%;
+    top: 18%;
+    background-color: rgba(254, 253, 250, 0.717);
+    border: rgb(71, 29, 29) solid 4px;
+    border-radius: 10px;
+    position: absolute; 
+    justify-items: center;
+    align-content: center;
+    justify-self: center;
+}
+
+.imgContainer {
+    width: 90%;
+    height: 70%;
+    top: 36%;
+    position: absolute;
+    background-color: rgba(254, 253, 250, 0.717);
+    border: rgb(71, 29, 29) solid 4px;
+    border-radius: 10px;
+    justify-self: center;
+    display: flex;
+}
+
+.imgContainer .imgBox {
+    margin: 25px 25px;
+    width: 300px;
+    height: 250px;
+}
+
+.imgContainer .imgBox img {
+    cursor: pointer;
+}
