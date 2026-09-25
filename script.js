@@ -11,8 +11,8 @@ function loadRecipes(indexNumb) {
     recipeName.innerText = allRecipes[indexNumb - 1].name;
     recipeImage.src = `images/${allRecipes[indexNumb - 1].img}.jpg`;
     recipeImageTwo.src = `images/${allRecipes[indexNumb - 1].img}.jpg`;
-    ingredients.innerText = allRecipes[indexNumb - 1].ingredients;
-    instructions.innerText = allRecipes[indexNumb - 1].instructions;
+    ingredients.innerText = allRecipes[indexNumb - 1].ingredients.join(' ');
+    instructions.innerText = allRecipes[indexNumb - 1].instructions.join(' ');
 }
 
 function rollRecipe() {
